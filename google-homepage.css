@@ -1,0 +1,149 @@
+
+body
+{
+    display: block;
+    font-size: 13pt;
+    font-family: monospace;
+    margin:auto;
+}
+div > a
+{
+    text-decoration: none;
+    color:#969696;
+    padding: 10px ;
+
+}
+
+#logo
+{
+    display: block;
+    margin:auto;
+    width: 30%;
+    padding-top: 150px;
+}
+#SearchBox
+{
+    display: block;
+    margin:auto auto 20px auto;
+    width: 100%;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+}
+#SearchBox:hover
+{
+    box-shadow: 5px 10px #aaaaaa;
+}
+
+#content
+{
+    margin:auto;
+    width: 100%;
+}
+#content > p
+{
+    margin: auto;
+    width: 50%
+}
+#SearchBox
+{
+    margin:auto auto 20px auto;
+    width: 50%;
+}
+#SearchQueryInput
+{
+    padding: 5px 0px 0px 7px;
+    width: 90%;
+    display: inline-block;
+    float:left;
+}
+#SearchQueryInput > form > input
+{
+    border:none;
+    font-size: 14pt;
+    width: 100%;
+}
+#SearchQueryInput > form > input:focus
+{
+    outline:none;
+}
+#VoiceToTextButton
+{
+    padding: 5px 5px 0px 5px;
+    width: 5%;
+    display: inline-block;
+    float:right;
+}
+#VoiceToTextButton > button
+{
+    width: 20px;
+    height: 20px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/600px-Google_mic.svg.png");
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:right;
+}
+#SearchButtons
+{
+    margin:auto auto 20px auto;
+    padding-left: 5%;
+    width: 50%;
+}
+#SearchButtons > button
+{
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px;
+    font-size: 13pt;
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 45%;
+    border-style: none;
+}
+#SearchButtons > button:hover
+{
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px;
+    font-size: 13pt;
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 45%;
+    box-shadow: 2px 2px #aaaaaa;
+}
+button:focus
+{
+    outline: none;
+}
+.LeftNav
+{
+    display: inline-block;
+    float: left;
+}
+.RightNav
+{
+    display: inline-block;
+    float: right;
+}
+#TopNav
+{
+    width: 100%;
+    padding: 10px;
+    top:10px;
+    left: 0px;
+    position: absolute;
+}
+#BotNav
+{
+    width: 100%;
+    border-style:solid;
+    border-color: rgba(177, 168, 168, 0.54);
+    border-width: thin;
+    background-color: #f3f0f0;
+    padding: 10px 0px 10px 0px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}

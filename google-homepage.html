@@ -1,37 +1,51 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
     <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="google-homepage.css">
 </head>
 <body>
-    <div class="nav" id="TopNav">
-    <ul>
-        <li><a href="https://www.google.com/intl/en/about/">About</a></li>
-        <li><a href="https://store.google.com/">Store</a></li>
-        <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-        <li><a href="https://www.google.com/imghp">Images</a></li>
-    </ul>
+    <div id="TopNav">
+        <div class="LeftNav">
+            <a href="https://www.google.com/intl/en/about/">About</a>
+            <a href="https://store.google.com/">Store</a>
+        </div>
+        <div class="RightNav">
+            <a href="https://mail.google.com/mail/">Gmail</a>
+            <a href="https://www.google.com/imghp">Images</a>
+        </div>
     </div>
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" >
-    <div id="SearchBox">
-        <form>
-            <input type="text" name="SearchQuery" value="">
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" >
+    <div id="content">
+        <div id="SearchBox">
+            <div id="SearchQueryInput">
+            <form id="Search">
+                <input type="text" name="SearchQuery" value="">
+            </form>
+            </div>
+            <div id="VoiceToTextButton">
             <button type="button" name="VoiceToTextButton"></button>
-        </form>
-        <ul>
-            <li><button type="button" name="GoogleSearchButton">Google Search</button></li>
-            <li><button type="button" name="IFeelLuckyButton">I'm Feeling Lucky</button></li>
-        </ul>
+            </div>
+        </div>
+        <div id="SearchButtons">
+            <button type="submit" form="Search" name="GoogleSearchButton">Google Search</button>
+            <button type="button" name="IFeelLuckyButton">I'm Feeling Lucky</button>
+        </div>
+
         <p>It's World’s Indigenous Peoples' Day. Celebrate with <a href="https://www.google.com/url?q=https://earth.google.com/web/data%3DCiQSIhIgYTY1Y2U1NTk3MzE4MTFlOTkzN2RjN2JkNTNhNDc1ZGI%3Futm_source%3Dreferral%26utm_campaign%3Dhpp%26utm_term%3Dlanguages&source=hpp&id=19013449&ct=3&usg=AFQjCNHVqMJZMEwecbQf21Z-sQ0VlBx9qA&sa=X&ved=0ahUKEwimt-Cm1PfjAhUGQq0KHc9jAn4Q8IcBCA8">Google Earth</a></p>
     </div>
-    <div class="nav" id="BotNav">
-    <ul>
-        <li><a href="https://www.google.com/intl/en_us/ads/">Advertising</a></li>
-        <li><a href="https://www.google.com/services/">Business</a></li>
-        <li><a href="https://google.com/search/howsearchworks/">How Search Works</a></li>
-        <li><a href="https://www.google.com/intl/en_us/policies/privacy/">Privacy</a></li>
-        <li><a href="https://www.google.com/intl/en_us/policies/terms/">Terms</a></li>
-    </ul>
+    <div id="BotNav">
+        <div class="LeftNav">
+            <a href="https://www.google.com/intl/en_us/ads/">Advertising</a>
+            <a href="https://www.google.com/services/">Business</a>
+            <a href="https://google.com/search/howsearchworks/">How Search Works</a>
+        </div>
+        <div class="RightNav">
+            <a href="https://www.google.com/intl/en_us/policies/privacy/">Privacy</a>
+            <a href="https://www.google.com/intl/en_us/policies/terms/">Terms</a>
+        </div>
     </div>
-
 </body>
+
+</html>
